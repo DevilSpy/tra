@@ -1,0 +1,48 @@
+body {
+    background: #fefefe;
+    margin: 0 auto;
+    font-family: Arial;
+}
+
+.navigation, h1 {
+    text-align: center;
+}
+
+.navigation ul {
+    display: block; 
+    list-style: none;
+}
+
+.navigation ul li {
+    display: inline; 
+    padding: 0 10px;
+}
+
+.navigation a {
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: #cecece;
+}
+
+
+.container {
+    margin: 0 20%;
+}
+
+.recentExercise:nth-child(even) {
+    background: #f6f6f6;
+}
+
+.recentExercise {
+    display: inline-block;
+    padding: 10px;
+    vertical-align: top;
+}
+
+.center {
+    text-align: center;
+}
